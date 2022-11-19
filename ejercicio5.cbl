@@ -1,4 +1,4 @@
-*EJERCICIO 5 COBOL
+Ki*EJERCICIO 5 COBOL
 
 *1.Listar las divisiones de las que consta un Programa COBOL
 *Todo programa Cobol tiene hasta 4 divisiones (partes de un programa), cada una tiene una función específica.
@@ -158,14 +158,11 @@ PROCEDURE DIVISION.
        EVALUATE_AND_DISPLAY.
        IF CAMPO1 = 'AA'
           MULTIPLY CAMPO2 BY 15_percent.
-          MOVE RESULT TO CAMPO2.
        ELSE 
           IF CAMPO1 = 'BB'
              MULTIPLY CAMPO2 BY 25_percent.
-             MOVE RESULT TO CAMPO2.
           ELSE
              MULTIPLY CAMPO2 BY 2.
-             MOVE RESULT TO CAMPO2.
           END-IF. 
        END-IF.
        DISPLAY CAMPO1.
