@@ -1,4 +1,4 @@
-/*EJERCICIO 5 COBOL
+*EJERCICIO 5 COBOL
 
 *1.Listar las divisiones de las que consta un Programa COBOL
 *Todo programa Cobol tiene hasta 4 divisiones (partes de un programa), cada una tiene una función específica.
