@@ -4,6 +4,8 @@ Para esta prueba me base en los ejercicios 1, 2, 3 Y 5 de los perfiles Testing, 
 
 Para completar los casos de prueba del ejercicio 1, supuse que el login era para un banco, por ejemplo el BROU, para poder asignarle prioridades a las pruebas. Por ejemplo, añadí algunos casos que no estaban implícitos, como por ejemplo, ejecutar otro procedimiento (cambiar la contraseña) cuando alguien intenta entrar a la página, pero ingresa una contraseña errónea mas de tres veces, de manera de reforzar la seguridad de los datos de los usuarios.
 
+En el ejercicio 2 de SQL, al principio hice la consulta con un OR en vez de UNION, pero investigando me di cuenta que el UNION es mas performante que un OR, y que era recomendable evitar el OR, entonces me planteé realizar la consulta con UNION.
+
 Al hacer las consultas de SQL, en el ejercicio 3, hice dos consultas, una en caso de que no haya repetidos, y solo devolvería los nombres, ya que está implícito que son únicos. Pero en el caso de que haya repetidos, tuve que asumir que en la tabla, cada ciudadano tiene un ID, para así poder distinguir entre nombres que sean únicos, ya que si hay repetidos no se deberían mostrar.
 
 Para el código del ejercicio 5 parte (5), construí el programa asumiendo que exsten ciertas constantes y variables para facilitar varias cosas (se explica en el archivo).
