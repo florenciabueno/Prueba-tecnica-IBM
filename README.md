@@ -10,12 +10,12 @@ Al hacer las consultas de SQL, en el ejercicio 3, hice dos consultas, una en cas
 
 Para el código del ejercicio 5 parte (5), construí el programa asumiendo que exsten ciertas constantes y variables para facilitar varias cosas (se explica en el archivo).
 Lo primero que hace es abrir el archivo de la base de datos, ya que si no lo abrimos, no podremos leer, escribir, actualizar o borrar datos de él. Y al terminar de reccorer lo que necesitábamos, deberíamos cerrarlo.
-Comencé asignándole el valor '1' a la variable END, ya que mientras esté en '1', seguiremos recorriendo el archivo, pero al finalizar nuestra recorrida, esa variable tomará el valor '0', indicando que debemos terminar la ejecución.
+Comencé asignándole el valor '1' a la variable END_FILE, ya que mientras esté en '1', seguiremos recorriendo el archivo, pero al finalizar nuestra recorrida, esa variable tomará el valor '0', indicando que debemos terminar la ejecución.
 
 Para leer secuencialmente todo el archivo usamos READ REGISTRO NEXT RECORD    AT END.
 Cuando se lee un registro, pasa a ejecutarse EVALUATE_AND_DISPLAY, que cambiará el CAMPO2 del registro según cual condicición se cumpla, y desplegará ambos campos del registro en la consola.
 
-EVALUATE_AND_DISPLAY deja de ejecutarse cuando se llega al fin del archivo, particularmente, cuando END = '0', lo que significa que debemos cerrar el archivo y parar la ejecución.
+EVALUATE_AND_DISPLAY deja de ejecutarse cuando se llega al fin del archivo, particularmente, cuando END_FILE = '0', lo que significa que debemos cerrar el archivo y parar la ejecución.
 
 Referencias para hacer los ejercicios:
 
